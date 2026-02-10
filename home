@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0e141b]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]">SchemeMatch AI</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">About</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#197fe5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Get Started</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBB-BuRASjWvCg9gqlwKCFf7wfavgBXQ3ZdxuJf40KZmE0e-3TXrqncxm61DeizCPpt_v-7omnQ_eFObyV18gJSXzb3j8fneWW1B0CPhfodU5cT2Fc3BpD6GYguKtmEyxJit96Xx93-fng1fl4KjqCfwHjE3fovXt_7OJUdC0ioXpW_z8jTMZ3My69EPViSnHwKE51luqJAmY1GxmZWU7-JIl4yTA-y2VaMhmIb5QGxGtARff3I_X5t9YISmPG7YJEULK9qYxmODFR3");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Find the Right Government Schemes for You
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Our AI-powered tool helps you discover government schemes tailored to your needs and eligibility. Start your journey towards accessing valuable resources and
+                      support.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#197fe5] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Get Started</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Schemes</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBhi_swudA_3NVQK4_cybZMizhEPLJse0HtcoTkBElLqBAiPpSk7_QDZ7W75VZIZAmJkGenrZmAsE3xR5Rg2k6IuDes9H8h_bx371GuqGyyBsaWychukVuX_FWkhnxxujw0ws4URgTEnomNtAdt5JtHziQ1nkRdPUMhM4Ulwm_o_hDOg4nqwEiU5gHLSq8HCvl7G0PYwwLx3mp3w1dKVemXgb7X84DMG6mpC__bs3iB1QRKZ9pSv6s_Ri4j3AoNjbzbEV7KAhu07mKf");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0e141b] text-base font-medium leading-normal">Family Support Program</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">Provides financial assistance and resources for families with children.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZTlISwIUXsngHcKCmfhjyGcRXII9EuiL6oxPCxHtLo_Z8B1xfLiYVluzecB-QkTRi4jInjneFupgv0NQMLUS02EqoDwHsKLoRuqNuHNOCdbNRCJc0WdGEBUteLah-DZzefc0b4OTTVXSiiFXsBwFDl-4ZCVdnGeG1dAZzvgjXSk0XdlS6OGrqfO_zH1zAqqkiHCQrUYC6z5NDSua4xzp4KB5L0hMbiiJLcUsFjycvQ64g6J8GhY5R-FWorVDrIwozYAadHuVfxPMr");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0e141b] text-base font-medium leading-normal">Entrepreneurship Grant</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">Offers grants and mentorship for aspiring entrepreneurs and small businesses.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBeyjF41H1iNiD7D4xzvcirnXkkVUOK0VN1FIGAiTwxqccTAIEsuh6__UCHVA8aZyy_19OTRpHrjbAqJPU8ZjHUK77R8KL3Y70MMr0e_MSA4MO4Qd7NW8KUT21EGzX_kGJ5VH50LQnJ2biL9mLIOUd5NWhle4zGuOxYMEBTOip-r1NVZCZB26a1Vxq-NEvtowurLPnM3IxHmOwN4MXQ5_YsR6TZ79xRxpFQ0-WQls-mKQCTtA1eRJSr5k350x_TW18bczE1OsRQMgCR");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0e141b] text-base font-medium leading-normal">Senior Citizen Assistance</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">Supports senior citizens with healthcare, housing, and financial aid.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
