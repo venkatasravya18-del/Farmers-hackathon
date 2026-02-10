@@ -1,0 +1,331 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0e141b]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]">SchemeMatch AI</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Dashboard</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Profile</a>
+              <a class="text-[#0e141b] text-sm font-medium leading-normal" href="#">Support</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#4e7397] flex border-none bg-[#e7edf3] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#e7edf3] focus:border-none h-full placeholder:text-[#4e7397] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDL2hpAJiMzoqZEMMDNcDikS1jd5ab3IU00winYruwjVkASCERhq7N7oKKZxhjKUf_j_V5sAFcQo95S1L5tywYxLoqVjXIZTjkWqr-YTonVDtzeIcnFnEtTeRQdbtLCRxWx13VzvIjugclJQF9KA5jeVdoTutyOkwoD4D9LhJr6JzRiD0lHeGEcq6NJ_JVLBb6O5ZBCwINUxuLGUzHe940Bbyiu6qWvvOX7Ay1630X70qHu7iNmmQ-_gobTAWoDYdl3PobDk_oQM-UM");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#0e141b] tracking-light text-[32px] font-bold leading-tight">Your Scheme Recommendations</p>
+                <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                  Based on your profile, we've identified the following government schemes that may be beneficial for you.
+                </p>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50 p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#0e141b] text-base font-bold leading-tight">Small Business Support Initiative</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                      This scheme offers financial assistance and mentorship to small businesses in the tech sector. Benefits include low-interest loans and access to industry
+                      experts.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf3] text-[#0e141b] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Learn More</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBaVPD16d7tY2Pb933hRduSQuUFZcsvv56mQuhCtmGHVjwchWxLZlB89BdeFDxOfoVWGcaGQDRJpEYddACr7U3LfQ--UD6nyI3GiUGl1MyNHBSZdJPidQuNEgPxTmRL7HsUM4Bd-87UfG-afUSCRMnKTDeZCJVGxPFV-08kEa8c8_I5ME1TpHM2bPF5Cc9Z8z2-TyBXVrUxZcYYHsTDuhF6aquw4GjdvnsC6eyAU47q9aCDuaSVCMtk9SYjLQJLBIIck7FiMkl9_LZa");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Feedback</h3>
+            <div class="flex flex-wrap gap-3 p-4">
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Relevant
+                <input type="radio" class="invisible absolute" name="b4259e24-7928-4ed6-904f-548de7f2aed7" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Relevant
+                <input type="radio" class="invisible absolute" name="b4259e24-7928-4ed6-904f-548de7f2aed7" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Neutral
+                <input type="radio" class="invisible absolute" name="b4259e24-7928-4ed6-904f-548de7f2aed7" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Not Relevant
+                <input type="radio" class="invisible absolute" name="b4259e24-7928-4ed6-904f-548de7f2aed7" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Not Relevant
+                <input type="radio" class="invisible absolute" name="b4259e24-7928-4ed6-904f-548de7f2aed7" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="Provide additional feedback (optional)"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] min-h-36 placeholder:text-[#4e7397] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50 p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#0e141b] text-base font-bold leading-tight">Green Energy Incentive Program</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                      Provides subsidies for installing solar panels and other renewable energy systems in homes and businesses. Eligibility requires a property assessment.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf3] text-[#0e141b] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Apply Now</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAZhyf-CVVKSfLzbuWlEs6cRkLy6r9VJnd3kfpMVBO08CpxC3OWY_qR55BcOPyom-KR8y_hchapn1l4ElbHhRi3K-7V0ce7XEeZhj1kThr4vj9oz8-UyY_vItsloBHfM12mKxIGvdgcCI-CrDrnulct5iZiz3xkntADFCRfL14YZs1b1ZJvC6k-DMrCv7X_lG98blAHOI7MOsqwWXKszr-hPQfjrrcS_jH1KhB_x785ae4dNsxxfPouk0D2PhShzAJn3EXXzWWbYnYP");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Feedback</h3>
+            <div class="flex flex-wrap gap-3 p-4">
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Relevant
+                <input type="radio" class="invisible absolute" name="216c954d-66bb-4d8b-a1d5-ec77b931d39e" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Relevant
+                <input type="radio" class="invisible absolute" name="216c954d-66bb-4d8b-a1d5-ec77b931d39e" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Neutral
+                <input type="radio" class="invisible absolute" name="216c954d-66bb-4d8b-a1d5-ec77b931d39e" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Not Relevant
+                <input type="radio" class="invisible absolute" name="216c954d-66bb-4d8b-a1d5-ec77b931d39e" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Not Relevant
+                <input type="radio" class="invisible absolute" name="216c954d-66bb-4d8b-a1d5-ec77b931d39e" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="Provide additional feedback (optional)"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] min-h-36 placeholder:text-[#4e7397] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50 p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#0e141b] text-base font-bold leading-tight">Skill Development Grant</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                      Offers grants for individuals seeking to upgrade their skills through certified training programs. Covers a wide range of courses from digital marketing to
+                      data science.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf3] text-[#0e141b] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Learn More</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAbKRczNxmr-rwgr2LYYJNLjxQzBYp0LL88YzQsFb1keEO4kkl3Db5VygQg35SS9No-cXa_jGy7_E3WaLg-zb80LFuR56506o6Gj9zgvbe9m4XYNqKOoj8nTDFEsaLEco0T9WsOxhZmDw2iXtc87uETDudeVnqA1AnWaHAPFKpbwTN3sA6MYojIcB2UiPO2iFB-QbUryAe-l7Z96dXBuJKjCY1obgfD7FHyGOS2880mRkJyhQeb6MHKYvX2WVgD2RLs5ZwtJGESIRKC");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Feedback</h3>
+            <div class="flex flex-wrap gap-3 p-4">
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Relevant
+                <input type="radio" class="invisible absolute" name="329a4472-1124-465a-a720-e9b92b6c54cf" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Relevant
+                <input type="radio" class="invisible absolute" name="329a4472-1124-465a-a720-e9b92b6c54cf" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Neutral
+                <input type="radio" class="invisible absolute" name="329a4472-1124-465a-a720-e9b92b6c54cf" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Not Relevant
+                <input type="radio" class="invisible absolute" name="329a4472-1124-465a-a720-e9b92b6c54cf" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Not Relevant
+                <input type="radio" class="invisible absolute" name="329a4472-1124-465a-a720-e9b92b6c54cf" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="Provide additional feedback (optional)"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] min-h-36 placeholder:text-[#4e7397] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-lg bg-slate-50 p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#0e141b] text-base font-bold leading-tight">Rural Healthcare Access Fund</p>
+                    <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                      A fund aimed at improving healthcare access in rural areas by providing financial support to healthcare professionals and facilities.
+                    </p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#e7edf3] text-[#0e141b] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Apply Now</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHoW5CHYO49RO6_xUrAqXp2SyNIWhz60w_oHJRDOkPZEaQh4VLsC0fc1WPbR58uMqt0DyC6W1vjr1JtPE9YVKQjlqkZldnuKjJC3A-29JezzEW75emCvAwgv9f75ZBQA2r-9IYtYe0GweibxH8MYy7hdh6nI5w3cO65e5IqRzn7gfOtwBxlm7iJpcSsrPYLtrKJbGToCrjoT9xO5mQKGIjkQLODulx-BDd14YzB4g6t4gfCCefRVsNdL9SUvaMwPSOB8zFxeDu4hbp");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Feedback</h3>
+            <div class="flex flex-wrap gap-3 p-4">
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Relevant
+                <input type="radio" class="invisible absolute" name="7f6e4e1d-9a13-4255-bc7b-e8ed3f3be31a" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Relevant
+                <input type="radio" class="invisible absolute" name="7f6e4e1d-9a13-4255-bc7b-e8ed3f3be31a" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Neutral
+                <input type="radio" class="invisible absolute" name="7f6e4e1d-9a13-4255-bc7b-e8ed3f3be31a" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Not Relevant
+                <input type="radio" class="invisible absolute" name="7f6e4e1d-9a13-4255-bc7b-e8ed3f3be31a" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#d0dbe7] px-4 h-11 text-[#0e141b] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1980e6] relative cursor-pointer"
+              >
+                Very Not Relevant
+                <input type="radio" class="invisible absolute" name="7f6e4e1d-9a13-4255-bc7b-e8ed3f3be31a" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="Provide additional feedback (optional)"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] min-h-36 placeholder:text-[#4e7397] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
